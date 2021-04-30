@@ -1,1 +1,1 @@
-# event-pin
+# Event Pin
