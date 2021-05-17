@@ -1,0 +1,133 @@
+body {
+    background-color: #101010;
+    height: 1366px;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+/* Homepage Header */
+
+.mainheader {
+    min-height: 500px;
+    background: url(images/eventpin.png);
+    margin-bottom: 40px;
+}
+
+#categories {
+    height: 56px;
+    margin-left: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+.category {
+    cursor: pointer;
+    flex-basis: 15%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stickyCategory {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    backdrop-filter: blur(4px);
+}
+
+.stickyCategory + .eventList {
+    padding-top: 120px;
+}
+
+/* Event List */
+
+.eventList {
+    margin-left: 64px;
+    padding: 0 64px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.eventCard {
+    height: 308px;
+    width: 328px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.05));
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.eventCard:hover {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.05));
+}
+
+.eventImg {
+    display: flex;
+}
+
+.eventImg img {
+    border-radius: 15px 15px 0 0;
+}
+
+.bookmark {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -24px;
+    position: absolute;
+    right: 24px;
+}
+
+.bookmark .iconify {
+    font-size: 24px;
+}
+
+.eventInfo {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventDetails h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.eventDetails p {
+    color: #0E8548;
+    margin-top: 0;
+}
+
+.eventTags {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 16px;
+}
+
+.tag {
+    padding: 0 16px;
+    margin-right: 8px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA;
+    border: 1px solid #C4C4C4;
+    border-radius: 18px;
+}
