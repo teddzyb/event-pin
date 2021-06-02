@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+#big-container {
+    position: absolute;
+    width: 465px;
+    height: 650px;
+    left: 1000px;
+    top: 180px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+#big-container-sec {
+    position: absolute;
+    width: 465px;
+    height: 550px;
+    left: 1000px;
+    top: 180px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+#big-container-third {
+    position: absolute;
+    width: 500px;
+    height: 750px;
+    left: 1000px;
+    top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.question {
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+#small-container {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 8px 1px;
+    cursor: pointer;
+  }
+  
+.align {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.category{
+    color: #9A9A9A;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.active, .category:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#sec-container {
+    margin-top: 35px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.iconify{
+    color: #9A9A9A;
+    width: 25px;
+    height: 25px;
+}
+
+.space {
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+
+input {
+    border: none;
+    font-size: 15px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    width: 380px;
+    color: #9A9A9A;
+    margin-top: 8px;
+    margin-left: 0;
+    margin-bottom: 25px;
+}
+
+#check-box {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+button {
+    color: black;
+    background: rgba(135, 180, 241, 0.93);
+    border: 1px solid rgba(113, 165, 236, 0.93);
+    width: 150px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: blue;
+    cursor: pointer;
+    font-weight: 620;
+    background: rgba(82, 142, 219, 0.93);
+    border: 1px solid rgba(97, 140, 201, 0.93);
+}
+
+#login {
+    color: black;
+    margin-left: 88px;
+}
+
+#login:hover {
+    color: #9A9A9A;
+    cursor: pointer;
+}
+
+#line{
+    color: #9A9A9A;
+}
