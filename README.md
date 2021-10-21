@@ -25,4 +25,4 @@ Event Pin is an event management and discovery website developed by Edwin Bartle
  - Ashley Ardoña
 
 ## Status
-Complete: June 3, 2021
+Completed: June 3, 2021
